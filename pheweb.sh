@@ -1,5 +1,4 @@
 activate-pheweb-py3.6
-cd /imppc/labs/dnalab/share/mar_navarro/pheweb_data/
 
 ### Creating a working instance with sample data
 pheweb phenolist glob --simple-phenocode 'tests/input_files/assoc-files/*'
