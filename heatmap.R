@@ -22,8 +22,10 @@ p<-p+scale_y_discrete(labels = c('Phototype score','Phototype','Freckles','Skin 
                               'Black eyes','Red hair','Blond hair','Brown hair','Black hair'))
 p + scale_fill_discrete(name = 'Z-score', labels = c('Negative','Positive'))  #Legend  
 
+
 ##### CHROMOSOME LOCATION #####
 library(ggplot2)
+
 gene<-c('aADAMTS12','bSLC45A2','cRXFP3','eIRF4','dEXOC2','gTYR','fNOX4','hKATNAL1','iOCA2','kHERC2','jGOLGA8F','mMC1R','lGAS8','nTUBB3','oPTPRT')
 chr<-c('achr5q35','bchr5p13','cchr5p15','dchr6p25','dchr6p25','echr11q14','echr11q14','fchr13q12','gchr15q11','hchr15q13','hchr15q13','ichr16q24',
     'ichr16q24','ichr16q24','jchr20q12')
